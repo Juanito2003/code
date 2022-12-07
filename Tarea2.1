@@ -1,0 +1,19 @@
+numero_binario = input()
+
+posicion = len(numero_binario) - 1 #posición del primer dígito por la izquierda 
+
+for posicion, digito_string in enumerate(numero_binario[::-1]): #multiplicamos la posicion x2
+		digito = int(digito_string)
+		multiplicacion = digito * 2 ** posicion;
+		print(f'Dígito: {digito}, posición: {posicion}, multiplicación: {multiplicacion}')
+ 
+numero_decimal = 0 #sumaremos el resultado de cada multiplicación:
+
+for posicion, digito_string in enumerate(numero_binario[::-1]):
+	numero_decimal += int(digito_string) * 2 ** posicion
+
+print(f'El número decimal es: {numero_decimal}')
+
+print("¿Cómo se llama?")
+nombre = input()
+print(f"Me alegro de conocerle, {nombre}")

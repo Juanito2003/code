@@ -7,12 +7,12 @@ import tracemalloc
 def app():
   a=3
   b=4
-  c=0
     
   for i in range(0, 100000):
-      c=a
-      a=b
-      b=c
+     # c=a
+     # a=b
+     # b=c
+      a,b=b,a
       
 
 # starting the monitoring

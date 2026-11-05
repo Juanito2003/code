@@ -1,0 +1,16 @@
+{
+  "nie": "X1234567A",
+  "nombre": "NOMBRE APELLIDO1 APELLIDO2",
+  "pais": "VENEZUELA",
+  "anno_nacimiento": "1990",
+
+  "provincia": "Ourense",
+  "oficina": "CNP ORENSE EXTRANJEROS",
+  "tramite": "TOMA DE HUELLAS",
+
+  "intervalo_minutos": 7,
+  "headless": false,
+
+  "telegram_token": "",
+  "telegram_chat_id": ""
+}
